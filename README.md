@@ -1,15 +1,14 @@
 # my-klipper-configs
-klipper config that i currently use
+Forked config, need to clean up some stuff still
 
 ## i have a Sidewinder X1 with the following mods
 - BL Touch by Waggster -> https://www.thingiverse.com/thing:3716043
 - no z axis syn belt (i use Z TILT)
-- filament runout sensor connected to X+
-- magnatic aluminud bed with PEI sheet or FR4 sheet for TPU
+- filament runout sensor connected to RPI
+- BMG wind clone
 
-i use fluidd as a gui
+Using Octoprint
 
-i use kiauth for software managemet/installation -> https://github.com/th33xitus/KIAUH
+MeshPrintSize.py is for Cura
 
-you will also need a cura plugin called "Mesh Print Size" 
-it will tell klipper how big the base of the print is and probe the bed in that area.
+config.ini is for superslicer
